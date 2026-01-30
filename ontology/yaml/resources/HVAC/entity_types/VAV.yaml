@@ -542,10 +542,18 @@ VAV_SD_ZSPC:
 VAV_ED:
   guid: "9fc088db-123e-4aba-9e97-2aa90df1d3cd"
   description: "Exhaust control VAV."
-  is_canonical: truefhwdc
+  is_canonical: true
   implements:
   - VAV
   - ED
+
+VAV_ED_EFSS:
+  description: "Fan powered exhaust control VAV."
+  is_canonical: true
+  implements:
+  - VAV
+  - ED
+  - EFSS
 
 VAV_SD_DSP_CO2C2X:
   guid: "60aece88-09c0-4420-be6b-3c2ae6e36180"

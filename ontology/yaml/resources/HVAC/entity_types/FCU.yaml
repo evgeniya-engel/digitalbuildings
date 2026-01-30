@@ -2230,7 +2230,7 @@ FCU_DFVSC_DSP_GDC_HWDC_DSPZDHC:
   - DFVSC
   - DSP
   - GDC
-  - HDWC
+  - HWDC
   - DSPZDHC
 
 ###################################

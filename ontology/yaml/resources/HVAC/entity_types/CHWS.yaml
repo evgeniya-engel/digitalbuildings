@@ -709,21 +709,18 @@ CHWS_SWTC_WDPC2X_WSEBYPVPM_WFRM:
   - WSEBYPVPM
   - WFRM
 
-CHWS_SWTC_RWTC_WDPC_SWPC_WFRM_FDPM3X_MWFRM_UVFDPM_WPS_WRM:
+CHWS_SWTC_WDPC_SWPC_WFRM_FDPM3X_UVFDPM_PLWVERC:
   description: ""
   is_canonical: true
   implements:
   - CHWS
   - SWTC
-  - RWTC
   - WDPC
   - SWPC
   - WFRM
   - FDPM3X
-  - MWFRM
   - UVFDPM
-  - WPS
-  - WRS
+  - PLWVERC
 
 CHWS_SWTC_WDPC_MINFC_MCBYPVM_WSEBYPVPM_CLPM:
   description: ""
@@ -737,13 +734,14 @@ CHWS_SWTC_WDPC_MINFC_MCBYPVM_WSEBYPVPM_CLPM:
   - WSEBYPVPM
   - CLPM
 
-CHWS_SWTC_MINFC:
+CHWS_SWTC_MINFC_SWPC:
   description: ""
   is_canonical: true
   implements:
   - CHWS
   - SWTC
   - MINFC
+  - SWPC
 
 ###################################
 ### Existing Non-standard Types ###

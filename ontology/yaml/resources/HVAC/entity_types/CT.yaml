@@ -306,6 +306,18 @@ CT_SS_VSC_RWTC_SWISOVM_RWISOVM_DWVC:
   - RWISOVM
   - DWVC
 
+CT_SS_VSC_SWTC_SWISOVM_RWISOVM_DWVC:
+  description: ""
+  is_canonical: true
+  implements:
+  - CT
+  - SS
+  - VSC
+  - SWTC
+  - SWISOVM
+  - RWISOVM
+  - DWVC
+
 ###################################
 ### Existing Non-standard Types ###
 ###################################

@@ -114,3 +114,12 @@ TK_LHLM_RWISOVPM:
   - /TK # Inherits from global namespace
   - LHLM
   - RWISOVPM
+
+TK_LM_RWISOVM_MWFRM:
+  description: "Tank with level and flowrate monitoring, and return water isolation valve."
+  is_canonical: true
+  implements:
+  - /TK # Inherits from global namespace
+  - LM
+  - RWISOVM
+  - MWFRM

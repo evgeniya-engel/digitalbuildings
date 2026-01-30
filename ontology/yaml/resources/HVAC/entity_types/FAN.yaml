@@ -835,13 +835,14 @@ FAN_SS_OACSP:
   - SS
   - OACSP
 
-FAN_VSC_EPC:
+FAN_VSC_EPC_EAIDC:
   description: ""
   is_canonical: true
   implements:
   - FAN
   - VSC
   - EPC
+  - EAIDC
 
 ###################################
 ### Existing Non-standard Types ###

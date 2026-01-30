@@ -787,6 +787,9 @@ literals:
 - discharge_air_isolation_damper_percentage_sensor:
     fixed_min: 0.0
     fixed_max: 100.0
+- exhaust_air_isolation_damper_percentage_sensor:
+    fixed_min: 0.0
+    fixed_max: 100.0
 - discharge_air_isolation_damper_status:
   - OPEN
   - CLOSED
@@ -1044,6 +1047,9 @@ literals:
 - high_exhaust_air_flowrate_alarm:
   - ACTIVE
   - INACTIVE
+- failed_exhaust_air_isolation_damper_alarm:
+  - ACTIVE
+  - INACTIVE
 - exhaust_air_flowrate_setpoint:
     flexible_min: 0.0
     flexible_max: 23.59737216
@@ -1142,6 +1148,9 @@ literals:
 - failed_chilled_return_water_isolation_valve_alarm:
   - ACTIVE
   - INACTIVE
+- failed_return_glycol_isolation_valve_alarm:
+  - ACTIVE
+  - INACTIVE
 - failed_chilled_return_water_temperature_alarm:
   - ACTIVE
   - INACTIVE
@@ -1160,6 +1169,9 @@ literals:
 - failed_chilled_water_differential_pressure_alarm:
   - ACTIVE
   - INACTIVE
+- failed_process_water_differential_pressure_alarm:
+  - ACTIVE
+  - INACTIVE  
 - failed_chilled_water_isolation_valve_alarm:
   - ACTIVE
   - INACTIVE
@@ -4195,9 +4207,6 @@ literals:
 - water_temperature_sensor:
     flexible_min: 255.9259259
     flexible_max: 380.3703704
-- water_resistance_sensor:
-    flexible_min: 0.0
-    flexible_max: 10000.0
 - water_totaldissolvedsolids_concentration_sensor:
     flexible_min: 0.0
     flexible_max: 0.001
@@ -4466,5 +4475,35 @@ literals:
   - UNOCCUPIED
   - INACTIVE
 - zone_scene_command:
+  - ACTIVE
+  - INACTIVE
+- polishing_water_isolation_valve_command:
+  - OPEN
+  - CLOSED
+- polishing_water_isolation_valve_status:
+  - OPEN
+  - CLOSED
+- polishing_water_flowrate_sensor:
+    flexible_min: -0.000315451
+    flexible_max: 0.315451
+- polishing_water_electricresistivity_sensor:
+    flexible_min: 0.0
+    flexible_max: 180000 
+- polishing_water_electricresistivity_setpoint:
+    flexible_min: 0.0
+    flexible_max: 180000 
+- polishing_water_electricconductivity_sensor:
+    flexible_min: 0.0
+    flexible_max: 0.00055
+- polishing_water_electricconductivity_setpoint:
+    flexible_min: 0.0
+    flexible_max: 0.00055
+- failed_polishing_water_electricresistivity_alarm:
+  - ACTIVE
+  - INACTIVE
+- failed_polishing_water_flowrate_alarm:
+  - ACTIVE
+  - INACTIVE
+- failed_polishing_water_isolation_valve_alarm:
   - ACTIVE
   - INACTIVE
