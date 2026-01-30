@@ -287,6 +287,7 @@ CDWS_SWTC_WFRM_MWFRM_BWFRM:
   - BWFRM
 
 CDWS_RWTC_BWFRM_BYPVPM_MWFRM:
+  guid: "0a7cc7b1-86b3-4b3c-a271-030013c26666"
   description: ""
   is_canonical: true
   implements:
@@ -297,6 +298,7 @@ CDWS_RWTC_BWFRM_BYPVPM_MWFRM:
   - MWFRM
 
 CDWS_SWTC_BWFRM_MWFRM:
+  guid: "ba436668-4de6-4a52-9f34-9eb9c254d3eb"
   description: ""
   is_canonical: true
   implements:
@@ -306,6 +308,7 @@ CDWS_SWTC_BWFRM_MWFRM:
   - MWFRM
   
 CDWS_SWTC_SWPC_MWDPC_WFRM_FDPM3X_UVFDPM_PLWVERC:
+  guid: "275304b8-5e6e-4c0f-96e4-fe7d68ea7984"
   description: ""
   is_canonical: true
   implements:

@@ -1799,6 +1799,7 @@ SGTC:
   - supply_glycol_temperature_setpoint
 
 RGTC:
+  guid: "5ab91ad1-8a2f-4334-9959-fc7f356b1e3e"
   description: "Return glycol temperature control."
   is_abstract: true
   implements:
@@ -2167,6 +2168,7 @@ ZHC:
   - OPERATIONAL
 
 ZHC2X:
+  guid: "c389cb01-cfa1-4aa0-96e6-7476baa3d533"
   description: "Zone air minimum relative humidity control with two-stage humidifier."
   is_abstract: true
   opt_uses:
@@ -2251,6 +2253,7 @@ ZHDHC:
   - CONTROL
 
 ZH2XDHC:
+  guid: "e38dc136-e2e6-46cf-a0b3-b1f777cec401"
   description: "Zone humidification/dehumidification control with two-stage humidifier."
   is_abstract: true
   opt_uses:
@@ -2413,6 +2416,7 @@ EPC:
   - OPERATIONAL
 
 EPC2X:
+  guid: "859e413d-7e69-4da0-af67-fe82dfa499f1"
   description: "Exhaust pressure control with two sensors."
   is_abstract: true
   uses:
@@ -2726,6 +2730,7 @@ EFDPM:
   - MONITORING
 
 UVFDPM:
+  guid: "ecfe9e37-c867-4f4e-90b3-260c482d2bbf"
   description: "Ultraviolet filter differential pressure monitoring."
   is_abstract: true
   uses:
@@ -2749,6 +2754,7 @@ FDPSM:
 # Glycol valve control
 
 GDC:
+  guid: "2f73916e-9c4b-45ff-8e75-f600c08cf9df"
   description: "Glycol valve control on discharge side."
   is_abstract: true
   uses:
@@ -5271,6 +5277,7 @@ PWECVC:
   - OPERATIONAL
 
 PLWVERC:
+  guid: "1a9e90cc-f082-4dc9-8e80-09d20683fee9"
   description: "Polishing water treatment system valve electricconductivity or electricresistivity control."
   is_abstract: true
   uses:
@@ -5289,6 +5296,7 @@ PLWVERC:
   - OPERATIONAL
 
 DWVC:
+  guid: "6cdde716-8576-426c-8434-4c56970a1346"
   description: "Dedicated abstract for drain water valve command"
   is_abstract: true
   uses:
@@ -6088,6 +6096,7 @@ SFVSC4X:
   - OPERATIONAL
 
 DWI:
+  guid: "322279cd-f8e4-445f-9f99-87ab4040e0de"
   description: "Dishwasher-interlocked exhaust fan"
   is_abstract: true
   uses:
@@ -6255,6 +6264,7 @@ CHWRWISOVM:
 
 
 CHGRWISOVM:
+  guid: "82e4cece-5b3b-43ed-982f-2b05a2d4e772"
   description: "Glycol return side isolation valve control."
   is_abstract: true
   opt_uses:
@@ -6335,6 +6345,7 @@ PWFRM:
   - process_water_flowrate_sensor
 
 PWFRC:
+  guid: "d5d7a6c3-ec99-49e2-abdf-bc3c01858d9f"
   description: "Process water flowrate control"
   is_abstract: true
   implements:
@@ -6550,6 +6561,7 @@ CHDX2SC:
   - compressor_run_status_2
 
 CHDX12SC:
+  guid: "e3aadf9c-0772-495f-84d7-ec7a6e0d8922"
   description: "Chiller control on supply side with 12 compressors."
   is_abstract: true
   opt_uses:
@@ -6654,6 +6666,7 @@ CHDXVSC2X:
   - compressor_current_sensor_2
 
 CHDXVSCSC:
+  guid: "cec49b31-2517-4ec5-a746-ddfa8ae30228"
   description: "Variable speed compressor control (updated version of CHDXVSC to include what the compressor is controlling to - chilled water temperature)."
   is_abstract: true
   uses:
@@ -6826,6 +6839,7 @@ DSPZDHC:
   - CONTROL
 
 DSPZDHC2X:
+  guid: "ab00d582-6416-413f-9b9b-918463ef1628"
   description: "Zone dual setpoint humidification/dehumidification control with two-stage humidifier."
   is_abstract: true
   opt_uses:
@@ -6975,6 +6989,7 @@ DRPM:
   - MONITORING
 
 BPM:
+  guid: "5ec3532a-fa9a-4845-9153-0d709e80f4ea"
   description: "Basin pump monitoring."
   is_abstract: true
   opt_uses:
@@ -7018,6 +7033,7 @@ ECDDC:
   - CONTROL
 
 ECCDC:
+  guid: "8dcf3546-113e-4b87-8e1f-2041c4bd1cc2"
   description: "Evaporative cooler control on discharge side (cooling setpoint only)."
   is_abstract: true
   opt_uses:
@@ -7214,6 +7230,7 @@ DX6SWC:
   - CONTROL
 
 DX12SWC:
+  guid: "e20f7b87-12fc-4464-8501-7a9ff9f7b386"
   description: "Twelve compressor run control on supply water side."
   is_abstract: true
   opt_uses:
@@ -8507,6 +8524,7 @@ TDTM:
   - MONITORING
 
 WTFLM:
+  guid: "fe26bf2c-5639-4703-bbf7-36c25f741e2d"
   description: "Water tank fill level monitoring."
   is_abstract: true
   uses:
@@ -8548,6 +8566,7 @@ CWRWISOVM:
   - MONITORING
 
 CWSWISOVM:
+  guid: "2b816ffe-a3e8-45a5-9ea5-98eef93aa72b"
   description: "Condensing water supply side isolation valve monitoring."
   is_abstract: true
   opt_uses:
@@ -8559,6 +8578,7 @@ CWSWISOVM:
   - MONITORING
 
 PRWISOVM:
+  guid: "2f7679a3-c947-4233-ac31-78ca4705d47f"
   description: "Process water supply side isolation valve monitoring."
   is_abstract: true
   opt_uses:
@@ -8766,6 +8786,7 @@ DAIDC2X:
   - MONITORING
 
 EAIDC:
+  guid: "58593512-7b15-49e8-bbcb-05cc628c392d"
   description: "Exhaust air isolation damper control and monitoring."
   is_abstract: true
   uses:
@@ -10562,6 +10583,7 @@ CHWBZTC:
   - low_zone_air_temperature_alarm
 
 PWBRTC:
+  guid: "80a0e7a9-f4fb-4347-b740-c7b650d6b9bc"
   description: "Process water valve binary (open/closed) control on the return side."
   is_abstract: true
   implements:
@@ -10573,6 +10595,7 @@ PWBRTC:
   - failed_process_return_water_isolation_valve_alarm
 
 PWBSTC:
+  guid: "85deb96b-7357-44c5-9de0-d9a169d26a73"
   description: "Process water valve binary (open/closed) control on the supply side."
   is_abstract: true
   implements:
