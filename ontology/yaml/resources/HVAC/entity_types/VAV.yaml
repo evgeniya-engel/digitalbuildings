@@ -548,6 +548,7 @@ VAV_ED:
   - ED
 
 VAV_ED_EFSS:
+  guid: "9d946c96-da2a-4091-85de-2efb3fdfbcfb"
   description: "Fan powered exhaust control VAV."
   is_canonical: true
   implements:

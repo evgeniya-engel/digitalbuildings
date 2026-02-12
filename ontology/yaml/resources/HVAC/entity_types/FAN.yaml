@@ -836,6 +836,7 @@ FAN_SS_OACSP:
   - OACSP
 
 FAN_VSC_EPC_EAIDC:
+  guid: "97053704-c31a-4e0d-a137-d5725c86e929"
   description: ""
   is_canonical: true
   implements:

@@ -1273,6 +1273,7 @@ CH_SS_SWTC_DXSWC_WFRM:
   - WFRM
 
 CH_VSC_CHWDT_CWDT_CHDXSC_CHWSWISOVPM_CWSWISOVPM_REFPM_REFSM_OTPM_IGM:
+  guid: "a901626b-ad50-4224-80f7-b2da84883e55"
   description: ""
   is_canonical: true
   implements:
@@ -1289,6 +1290,7 @@ CH_VSC_CHWDT_CWDT_CHDXSC_CHWSWISOVPM_CWSWISOVPM_REFPM_REFSM_OTPM_IGM:
   - IGM
 
 CH_SS_CSWTC_CHDXVSC2X_CHWRWISOVPM_CWSWISOVPM_RCKTM2X:
+  guid: "77f6e195-edb5-48ac-8605-b74653a16d3c"
   description: ""
   is_canonical: true
   implements:
@@ -1301,6 +1303,7 @@ CH_SS_CSWTC_CHDXVSC2X_CHWRWISOVPM_CWSWISOVPM_RCKTM2X:
   - RCKTM2X
 
 CH_SS_CWDT_CHDXVSCSC_CHWRWISOVPM_CWSWISOVPM_REFPM_OTPM_IGM:
+  guid: "2ce93106-0d77-450d-b2d6-649f212b761f"
   description: ""
   is_canonical: true
   implements:
@@ -1315,6 +1318,7 @@ CH_SS_CWDT_CHDXVSCSC_CHWRWISOVPM_CWSWISOVPM_REFPM_OTPM_IGM:
   - IGM
 
 CH_SS_DX12SWC_WDT:
+  guid: "4775a12a-5d14-4566-b594-ccdb71b601cd"
   description: ""
   is_canonical: true
   implements:
@@ -1324,6 +1328,7 @@ CH_SS_DX12SWC_WDT:
   - WDT
 
 CH_SS_PSWTC_PRWISOVM_CWSWISOVM:
+  guid: "09fe62e9-5613-4b32-b2a6-5a5c12dc059b"
   description: ""
   is_canonical: true
   implements:
@@ -1334,6 +1339,7 @@ CH_SS_PSWTC_PRWISOVM_CWSWISOVM:
   - CWSWISOVM
 
 CH_SS_SGTC_CHGRWISOVM_CWSWISOVM:
+  guid: "1de50746-9156-4af4-99ad-26149ebbb1d7"
   description: ""
   is_canonical: true
   implements:
