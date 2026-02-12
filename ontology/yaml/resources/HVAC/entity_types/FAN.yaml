@@ -271,7 +271,6 @@ FAN_SS_DWI:
   implements:
   - FAN
   - SS
-  - DWI
   uses:
   - dishwasher_run_status
 
@@ -837,7 +836,7 @@ FAN_SS_OACSP:
 
 FAN_VSC_EPC_EAIDC:
   guid: "97053704-c31a-4e0d-a137-d5725c86e929"
-  description: ""
+  description: "Fan with variable speed control, exhaust air static pressure control, and exhaust air isolation damper."
   is_canonical: true
   implements:
   - FAN

@@ -1096,7 +1096,7 @@ MAU_DFVSC_DSPM_CHWDDC_OAMC_OA:
   - OA
 
 MAU_DFVSC_ECCDC_OA:
-  description: ""
+  description: "Mau with discharge fan variable speed control, evaporative cooling control, and outside air monitoring."
   is_canonical: true
   implements:
   - MAU
@@ -1105,7 +1105,7 @@ MAU_DFVSC_ECCDC_OA:
   - OA
 
 MAU_DFVSC_SFM:
-  description: ""
+  description: "Mau with discharge fan variable speed control and supply air flowrate monitoring ."
   is_canonical: true
   implements:
   - MAU

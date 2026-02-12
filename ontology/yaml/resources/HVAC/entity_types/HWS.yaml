@@ -561,7 +561,7 @@ HWS_SWTC_WDPC_MMHWDPC_WFRM:
   - WFRM
 
 HWS_SWTC_WDPC_WFRM_MINFC:
-  description: ""
+  description: "Heating water system with supply temperature control, differential pressure control, flowrate monitoring and minimum flow control."
   is_canonical: true
   implements:
   - HWS
